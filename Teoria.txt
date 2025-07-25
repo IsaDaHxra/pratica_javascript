@@ -23,3 +23,12 @@ COMANDOS:
 - console.log: É como se fosse o print do js
 - Sempre coloque ; no final de uma linha (igual java)
 - Para integrar um arquivo js externo ao html, é só linkar no html com o <script src="nome-arquivo.js">.
+
+O QUE SÃO TIPOS DE DADOS?
+
+- Forma de classificar um dado
+- Temos como dado: "Isabelly", 15, true, [] (a lista é um array, ou seja, um object.)
+- Os tipos de dados mais comuns são Number, String, Boolean, Empty values (null, undefined), Object.
+- Todos os números são number, não há uma diferença na classifação deles.
+* Toda comparação resulta em um boolean.
+- No JavaScript, o operador typeof exibe o tipo de dado.
