@@ -1,0 +1,25 @@
+SOBRE O JAVASCRIPT:
+
+- Ela é uma linguagem de programação de alto nível.
+- Sua principal função é deixar a página viva, adicionando comportamentos (alteração de HTML e CSS) através de eventos (Isso no front-end).
+- JavaScript é case sensitive, ou seja, quando cria uma variável com o mesmo nome porém com alguma letra ou a palavra inteira maiúscula ou 
+  minúscula, não são caracterizadas como a mesma variável.
+
+ONDE O JAVASCRIPT É UTILIZADO?
+
+- Interação com a página, HTML e CSS, através do DOM (O dom é basicamente uma cópia do HTML no objeto dp js)
+- Cálculo, manipulação, e validação de dados;
+- É empregado também no server-side, com Node.js (back-end)
+- As principais bibliotecas de Front-end são baseadas em js (react,vue, angular, Svelte...)
+
+FORMAS DE EXECUTAR JS:
+
+- Padrão: arquivo importado no HTML
+- Diretamente no navegador, através do Console
+- Por meio de aplicações, como o JS Fiddle
+
+COMANDOS:
+
+- console.log: É como se fosse o print do js
+- Sempre coloque ; no final de uma linha (igual java)
+- Para integrar um arquivo js externo ao html, é só linkar no html com o <script src="nome-arquivo.js">.
