@@ -32,3 +32,43 @@ O QUE SÃO TIPOS DE DADOS?
 - Todos os números são number, não há uma diferença na classifação deles.
 * Toda comparação resulta em um boolean.
 - No JavaScript, o operador typeof exibe o tipo de dado.
+
+NUMBERS
+
+- Podemos realizar equações no js
+- Os operadores que podemos usar também são: +, -, *, /
+- Temos os Special Numbers, eles são dados considerados como números, mas não funcionam como eles.
+  -> Infinity, -Infinity, NaN (Not a number)
+  -> Algumas operações podem resultar nesses valores
+
+STRINGS
+
+- No JS temos três formas de criar dados de texto, sendo eles as aspas simples, duplas e crases.
+- O "efeito final" é o mesmo, porém cada um deles tem suas particularidades.
+- A concatenação é feita pelo operador +
+- A interpolação no JS é ${ Algum código } (a interpolação é tipo o %d do java, {variável} em python..)
+  -> Ela deve ser escrita `entre crases`.
+
+COMPARAÇÕES
+
+- As comparações que podemos utilizar são
+  -> Maior e menor: > e <
+  -> Igual: ==
+  -> Diferente: !=
+  -> Idêntico: === (também temos o !==)
+  * Eles funcionam como == e !=, mas eles levam em consideração o tipo do dado. Por exemplo: 9 == "9" dá true, pois o valor é o mesmo. 9 === "9"
+    resulta em false, pois um é String e outro é Number, portanto, não são iguais.
+  * Devemos ao máximo tentar utilizá-los
+
+OPERADORES LÓGICOS
+
+- && Corresponde a AND.
+- || Corresponde a OR.
+- ! Corresponde a NOT.
+
+ADICIONAIS
+
+- Os comentários em js são // também.
+- A cor do "output" no console muda de acordo com o tipo de dado, por exemplo: String -> Preto | Number -> Azul
+- O \n e o \t funciona no JS!!! UHUU
+
