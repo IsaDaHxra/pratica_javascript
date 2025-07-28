@@ -70,5 +70,5 @@ ADICIONAIS
 
 - Os comentários em js são // também.
 - A cor do "output" no console muda de acordo com o tipo de dado, por exemplo: String -> Preto | Number -> Azul
-- O \n e o \t funciona no JS!!! UHUU
+- O \n e o \t funciona no JS!!! UHUU (o \t é tipo um tab)
 
