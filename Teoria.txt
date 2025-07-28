@@ -89,8 +89,25 @@ CONVERSÃO DE TIPO AUTOMÁTICA
    "5" + 1  = 51
    "a" * "b" = NaN
 
+SALVANDO VALORES NA MEMÓRIA
+
+- Precisamos utilizar variáveis ao invés de atribuir valores nas expressões
+- Elas são como containers, que salvam informações para quando precisamos utilizar
+- Para declarar variáveis, utilizamos o let e const
+- O let é utilizado para atribuir o valor da variável que pode mudar posteriormente, por exemplo: let nome = "Isabelly"
+- Para mudarmos o valor da variável, não precisamos colocar o let novamente, basta utilizar o nome da variável e o novo valor
+  *Ex: nome = "Isabelly da Hora"
+- Com o const, é um valor fixo, então não podemos alterar o valor da variável como o let.
+- Na maioria das vezes utilizamos o const.
+- Podemos criar várias variáveis em sequência, desta forma: let a=5, b = 4, c= 10
+  * Porém não é muito recomendado
+- Não podemos começar variáveis com números e não podemos utilizar caracteres especiais
+- As variáveis são case sensitive
+- Os símbolos permitidos para criarmos variáveis são o _ e o $
+
 ADICIONAIS
 
+- Nem sempre o uso do ; é necessário, mas é uma boa prática
 - Os comentários em js são // também.
 - A cor do "output" no console muda de acordo com o tipo de dado, por exemplo: String -> Preto | Number -> Azul
 - O \n e o \t funciona no JS!!! UHUU (o \t é tipo um espaçamento do tab)
