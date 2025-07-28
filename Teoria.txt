@@ -66,9 +66,32 @@ OPERADORES LÓGICOS
 - || Corresponde a OR.
 - ! Corresponde a NOT.
 
+            - TABELA VERDADE -
+
+  |  A  |  B  | A and B | A or B |  Not A |
+  |False|False|  False  | False  | False  |
+  |False|True |  False  | True   |  True  |
+  |True |False|  False  | True   | False  |
+  |True |True |  True   | True   | False  |
+
+EMPTY VALUES
+
+- Temos duas palavras que pertencem a este grupo de dados: undefined e null
+- undefined geralmente é vista quando usamos um código que não foi definido ainda (variáveis por exemplo)
+- O null geralmente é colocado pelo programador para determinar o que ainda não tem um valor
+
+CONVERSÃO DE TIPO AUTOMÁTICA
+
+- No js algumas operações mudam de tipo de dado, e isso acontece "silenciosamente"
+  * Exemplos *
+   5 * null = 0            
+   "5" - 3  = 2
+   "5" + 1  = 51
+   "a" * "b" = NaN
+
 ADICIONAIS
 
 - Os comentários em js são // também.
 - A cor do "output" no console muda de acordo com o tipo de dado, por exemplo: String -> Preto | Number -> Azul
-- O \n e o \t funciona no JS!!! UHUU (o \t é tipo um tab)
+- O \n e o \t funciona no JS!!! UHUU (o \t é tipo um espaçamento do tab)
 

@@ -23,25 +23,54 @@
 //console.log("Espaçamento \t de tab")
 
 // 6 - Concatenação
-console.log("Oi" + " me chamo" + " Belly" +"! :)");
+//console.log("Oi" + " me chamo" + " Belly" +"! :)");
 
 // 7 - Interpolação 
-console.log(`Oi me chamo ${"Belly"}! :)`);
-console.log(`A soma de 5+2 é: ${5+2}`);
+//console.log(`Oi me chamo ${"Belly"}! :)`);
+//console.log(`A soma de 5+2 é: ${5+2}`);
 
 // 8 - Boolean
-console.log(2>4);
-console.log(5>1);
+//console.log(2>4);
+//console.log(5>1);
 
 // 9 - Comparações
-console.log(5 <=5);
-console.log(5 < 5);
-console.log(12 == 12);
-console.log(13 == 11);
+//console.log(5 <=5);
+//console.log(5 < 5);
+//console.log(12 == 12);
+//console.log(13 == 11);
 
 // 10 - Idêntico
 console.log(9 == "9");
 console.log(9 === "9")
 console.log(9  + "9");
 
+// 11 - Operadores lógicos
+console.log(true && true);
 
+console.log(true && false);
+
+console.log(5 > 2 && 2 < 10);
+
+console.log( 5 > 2 && "Isabelly" ===1);
+
+console.log( 5 > 2 || "Isabelly" ===1);
+
+console.log(!true);
+
+console.log(!4 > 2);
+
+// 12 - Empty Values
+console.log(typeof null, typeof undefined);
+
+console.log(null === undefined);
+
+console.log(null == undefined);
+
+// 13 -  Mudança de tipos
+console.log( 5 * null);
+
+console.log("teste" * "oi");
+
+console.log("10" + 1);
+
+console.log("10" - 1);
