@@ -105,10 +105,71 @@ SALVANDO VALORES NA MEMÓRIA
 - As variáveis são case sensitive
 - Os símbolos permitidos para criarmos variáveis são o _ e o $
 
+AMBIENTE JS
+
+- Quando um programa é inciado, um ambiente é crido. O ambiente é navegador
+- Nele temos diversas funções e objetos, por exemplo: console e alert;
+  * Todo o programa terá acesso a elas.
+
+ESTRURA DE UMA FUNÇÃO
+
+- Uma função é um bloco de códigos que pode ser reaproveitado ao longo do programa
+- Chamamos ela pelo seu nome e também o uso de parênteses: funcao()
+- O log é um exemplo de função de console
+
+PROMPT
+
+- A função prompt recebe um dado do usuário
+- ele é o input do js, porém é pouco utilizada por conta da janela que ela abre.
+- Utilizamos ee da seguinte maneira: const x = prompt("Digite alguma coisa:")
+
+ALERT
+
+- O alert emite uma mensagem na tela por um pop up
+- Não é muito utilizada, mas é um clássico do JS
+- Evitamos ao máximo para não atrapalhar a navegação do site
+
+MATH
+
+- Math é um objeto que possui diversas funções para fins matemáticos
+- Exemplos:
+  * Max: encontra maior número
+    floor: arredonda o número para baixo
+    ceil: arredonda pra cima
+
+CONSOLE
+
+- O console também é um objeto, assim como o math.
+- Ele possui várias funções, sendo a de exibir uma mensagem de alguma categoria no console a função principal.
+- Temos alguns métodos muito interessantes para aplicar, por agora, tenho alguns exemplos:
+  * error: Exibe uma mensagem de erro personalizada
+    warn: Exibe uma mensagem de alerta personalidada
+
+ESTRUTURAS DE CONTROLE
+
+- Os programas são executados de cima para baixo
+- Com as estruturas podemos alterar o fluXo de execução
+- Temos as condições e comparações, as principais são if e else
+
+ESTRUTURAS DE REPETIÇÕES
+
+- É um bloco de código que se repete até uma condição ser satisfeita
+- Alguns da estruturas são: for e while
+- Elas possuem sintaxes diferentes, porém chegam no mesmo resultado
+- Precisamos ter cautela para não chegarmos ao loop infinito
+- A palavra reservada continue pode pular uma ou mais execuções do loop
+  * Ele é um recurso utilizado de forma semelhante ao break
+- O switch pode se utilizado para organizar o excesso de if/else
+  * Cada if seria um case, e para cada case, temos que adicionar um break
+    Também temos o default , que é como o else
+    É uma estrutura mais limpa e organizada
+
 ADICIONAIS
 
 - Nem sempre o uso do ; é necessário, mas é uma boa prática
 - Os comentários em js são // também.
 - A cor do "output" no console muda de acordo com o tipo de dado, por exemplo: String -> Preto | Number -> Azul
 - O \n e o \t funciona no JS!!! UHUU (o \t é tipo um espaçamento do tab)
-
+- Método é a função dentro de um objeto
+- Não podemos utilizar palavras reservadas no nome de uma variável
+- No javascript também temos o break
