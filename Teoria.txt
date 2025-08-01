@@ -164,6 +164,18 @@ ESTRUTURAS DE REPETIÇÕES
     Também temos o default , que é como o else
     É uma estrutura mais limpa e organizada
 
+FUNÇÕES
+
+- Elas são estruturas de código menores, podemos dividir o código em várias funções
+- O ideal é que cada uma tenho apenas um objetivo só
+- Ela nos faz poupar código
+- Para criarmos uma função, utilizamos a palavra function, depois precisamos nomeá-la
+- Os parâmetros ficam entre () depois do nome
+- O corpo da função fica entre {} (assim como no java)
+- Geralmente ela retorna um valor
+- Podemos criar uma função em uma variável também
+  * Não tem diferença nas duas formas de criar, apenas se utilizar o const para declarar a variável, pois garante que não haverá sobrescrita nela
+
 ADICIONAIS
 
 - Nem sempre o uso do ; é necessário, mas é uma boa prática
