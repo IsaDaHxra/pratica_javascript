@@ -17,3 +17,6 @@ function funcaoComParametro(texto) {
 
 const poema = "Na ponte frágil, Doce e incerto, Um passo, um abismo. E o coração, um eco mudo, Questiona se este caminho É lar ou precipício." ;
 funcaoComParametro(poema);
+
+let nome = prompt("Digite o seu nome: ");
+console.log(`O seu nome é ${nome}`);
