@@ -175,6 +175,21 @@ FUNÇÕES
 - Geralmente ela retorna um valor
 - Podemos criar uma função em uma variável também
   * Não tem diferença nas duas formas de criar, apenas se utilizar o const para declarar a variável, pois garante que não haverá sobrescrita nela
+- Arrow function é uma outra forma de criar uma função
+  * Ela tem uma sintaxe resumida, que tem algumas diferenças das funções normais.
+    Ela é mais utilizada em funções pequenas
+
+CLOSURE
+
+- Closure é um conjunto de funçõesm onde temos reaproveitamento do escopo interno de uma função
+- Elas também podem servir para salvar os resultados já executados.
+- Assim temos uma variável que executa uma função e modifica seu valor
+
+RECURSÃO
+
+- Ela permite a função de autoinvocar continuamente
+- Criamos uma espécie de loop
+- É interessante definir uma condição final para parar a execução
 
 ADICIONAIS
 
