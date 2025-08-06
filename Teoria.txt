@@ -120,7 +120,7 @@ ESTRURA DE UMA FUNÇÃO
 PROMPT
 
 - A função prompt recebe um dado do usuário
-- ele é o input do js, porém é pouco utilizada por conta da janela que ela abre.
+- ele funciona como input do js, porém é pouco utilizada por conta da janela que ela abre.
 - Utilizamos ee da seguinte maneira: const x = prompt("Digite alguma coisa:")
 
 ALERT
@@ -191,6 +191,48 @@ RECURSÃO
 - Criamos uma espécie de loop
 - É interessante definir uma condição final para parar a execução
 
+ARRAY
+
+- Array são listas
+- Os conteúdos dentro das listas são separados por vírgulas
+- Podemos adicionar propriedades nelas (como o lenght) das seguintes maneiras:
+  * dado.lenght
+    dado["lenght"]
+- Podemos percorres o array com as estruturas de repetição
+
+MÉTODOS
+
+- Os métodos são como funções, utilizamos os parênteses para invocar
+- Objetos são compostos por métodos e propriedades
+- Podemos verificar as propriedades de um objeto com o método keys de Object
+- Podemos receber arrays dos nomes das propriedade com seus valores utilizando o método entries
+
+OBJETOS
+
+- O nome técnico do objeto é object literals, isso pq vem da orientação a objetos com recursos de instância, herança😡
+- Já os literals possui apenas propriedades e métodos que nós mesmos criamos
+- O objeto fica em um bloco de {}
+- Podemos copiar todas as propriedades de um objeto para outro com o método assign
+- O object literal é uma instância de um objeto chamado object (o object literal é tipo a classe filha em java, temos uma herança)
+- Um objeto ou array criado com const pode ter seus elementos e propriedades modificadas
+
+PROPRIEDADES
+
+- Para adicionar uma nova propriedade no objeto, utilizamos a notação de ponto e atribuímos im valor
+- Para excluir uma, utilizamos o operador delete no alvo
+
+DIFERENÇAS ENTRE ARRAYS E OBJETOS
+
+- Os arrays são utilizados como listas de itens (geralmente todos possuem o mesmo tipo de dados)
+- Os objetos são utilizados para descrever um item, contém as informações do mesmo, e as propriedades possuem diferentes tipos de dados
+- Podemos ter um array de objetos, é muito utilizado.
+
+MUTAÇÃO
+
+- A mutação é uma característica que ocorre quando criamos um objeto a partir de outro
+- Esse novo objeto não é novo, e sim, uma referência do primeiro
+- As mudanças dele podem afetar a cópia e vice-versa (pensei em gêmeos siamesesKKKK)
+
 ADICIONAIS
 
 - Nem sempre o uso do ; é necessário, mas é uma boa prática
@@ -200,3 +242,6 @@ ADICIONAIS
 - Método é a função dentro de um objeto
 - Não podemos utilizar palavras reservadas no nome de uma variável
 - No javascript também temos o break
+- Com o operador instanceOf podemos ver se o objeto é filho de uma classe. 
+  * Formação: <Objeto> instanceOf <Classe>
+    Isso retorna true ou false
