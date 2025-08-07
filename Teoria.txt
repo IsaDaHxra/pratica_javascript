@@ -206,6 +206,26 @@ MÉTODOS
 - Objetos são compostos por métodos e propriedades
 - Podemos verificar as propriedades de um objeto com o método keys de Object
 - Podemos receber arrays dos nomes das propriedade com seus valores utilizando o método entries
+- Podemos utilizar os métodos para  manipular os arrays, ou seja, alterar os valores de alguma forma
+  * O push é responsável por adicionar um elemento no fim do array
+    O pop é responsável pela remoção de um elemento no fim do array
+    O shift é responsável pela remoção do primeiro elemento de um array
+    O unshift é responsável por adicionar um elemento na primeira posição de um array
+- O método com o método indexOf encontramos o índice de um elemento e retornamos um argumento para o método
+- Com o método lastIndexOf podemos ver o índice da última ocorrência quando há uma repetição de elementos.
+- Utilizamos o método slice para extrair um array menor de um array maior
+  * O intervalo dos elementos é determinado pelos parâmetros que são o índice de início e índice do fim
+    O último elemento é ignorado, para mostrá-lo, devemos somar 1 ao índice
+- O método includes verifica se o array tem um elemento
+  * Utilizamos no array e colocamos os elementos que buscamos
+    Ele retorna um valor booleano
+- O método reverse faz com que os elementos de um array sejam invertidos. Ele modifica o array original
+
+MÉTODOS DE STRING
+
+- As strings também são objetos, então possuem métodos e propriedades
+- Alguns são semelhantes aos de array
+  * Podemos usar o lenght em ambos dos objetos, acessar cada caractere pelo seu índice e etc..
 
 OBJETOS
 

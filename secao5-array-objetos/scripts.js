@@ -113,5 +113,84 @@ console.log(b);
 
 const usuarios= ["Isabelly", "Sophia","Tarqui","Rego", "Pedra", "Vinósio","Prada"]
 for( let i = 0; i < usuarios.length; i++){
+    if (usuarios[i]==="Isabelly"){
+        console.log(`${usuarios[i]} vc é linda perfeita`)
+    }
     console.log(`Listando o usuário ${usuarios[i]}`);
 }
+const listaNumeros = [1, 2, 3, 8, 5, 3];
+for (let a = 0; a <listaNumeros; a++){
+    console.log(`Números da lista ${listaNumeros[a]}`)
+}
+const vassoura = {
+    cabo: true,
+    cerdas: true
+}
+vassoura.listras = true;
+console.log(vassoura);
+console.log(Object.keys(vassoura));
+console.log(Object.entries(vassoura));
+
+//  11 -  Métodos pop e push
+
+usuarios.push("Lanna", "Akira", "Aline");
+console.log(usuarios);
+const remocaoUsuarios = usuarios.pop();
+console.log(remocaoUsuarios);
+
+//  12 - Métodos Shift e unshift
+
+const letras = ['a', 'b', 'c', 'd'];
+console.log(letras);
+console.log(letras.shift("a"));
+letras.unshift("z");
+console.log(letras);
+
+//  13 - Métodos indexOf e lastIndexOf
+
+const sinara = {
+    front: ["Rego", "Belly"],
+    back: ["Turquia", "Vinósio"],
+    dados: ["Pêra", "Rafael","Soaphro"]
+};
+console.log(sinara.front.indexOf("Belly"));
+console.log(sinara.dados.lastIndexOf("Rafael"));
+
+//  14 - Método slice
+
+const testeSlice = ['a','b','c','d','e','f','g','h'];
+
+const subArray = testeSlice.slice(2,4);
+console.log(subArray);
+const subArray2  = testeSlice.slice(2,4+1);
+console.log(subArray2);
+
+//  15 - Foreach
+
+const nums = [1, 2 , 3, 4, 5]
+nums.forEach((numero) => {
+    console.log(`O número é ${numero}`);
+})
+const posts = [
+    {title: "Primeiro post",category: "Python"},
+    {title: "Segundo post", category: "PHP"},
+    {title: "Terceiro post", category: "MongoDB"},
+    {title: "Quarto post", category: "JavaScript"}
+]
+posts.forEach((post) => {
+    console.log(`Exibindo ${posts.title} da categoria ${posts.category}`);
+});
+
+//  16 - Includes
+
+const brands = ["Ferrari", "Fiat", "Sinara", "Jbs"];
+
+console.log(brands.includes("Jbs"));
+console.log(brands.includes("Maizena")); // podemos usar uma estrutura condicional para enviar uma mensagem ao usuário
+
+//  17 - Reverse
+
+const reverseTest = [1,2,3,4,5,6,7,8,9,10];
+reverseTest.reverse();
+console.log(reverseTest)
+
