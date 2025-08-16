@@ -194,3 +194,45 @@ const reverseTest = [1,2,3,4,5,6,7,8,9,10];
 reverseTest.reverse();
 console.log(reverseTest)
 
+//  18 - Trim
+
+const $trim = "Essa trim é um teste \n   slk";
+console.log($trim);
+console.log($trim.trim());
+console.log($trim.length);
+console.log($trim.trim().length);
+
+//  19 - Padstart
+
+const isa = "Isabelly";
+
+const c = isa.padStart(20, "0");
+console.log(c);
+console.log(c.padEnd(30,"a"))
+
+//  20 - Split
+
+const amor = "O amor correspondido pode até ser divertido, mas o vazio de um fora será difícil ser preenchido. O amor pode ser recíproco mas não deve ser dolorido";
+const arrayAmor = amor.split(" ");
+console.log(arrayAmor);
+
+//  21 - Join
+
+console.log(arrayAmor.join("-"));
+
+// 22 - Restart
+
+const palavra = "Testando";
+console.log(palavra.repeat(3));
+
+//  23 - Rest Operator
+
+const somaInfinita = (...args) =>{
+    let total = 0;
+    for (let i = 0; i< args.length; i++){
+        total+= args[í];
+    }   return total;
+ 
+};
+console.log(somaInfinita(1, 10, 54));
+

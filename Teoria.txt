@@ -121,7 +121,7 @@ PROMPT
 
 - A função prompt recebe um dado do usuário
 - ele funciona como input do js, porém é pouco utilizada por conta da janela que ela abre.
-- Utilizamos ee da seguinte maneira: const x = prompt("Digite alguma coisa:")
+- Utilizamos e da seguinte maneira: const x = prompt("Digite alguma coisa:")
 
 ALERT
 
@@ -226,6 +226,13 @@ MÉTODOS DE STRING
 - As strings também são objetos, então possuem métodos e propriedades
 - Alguns são semelhantes aos de array
   * Podemos usar o lenght em ambos dos objetos, acessar cada caractere pelo seu índice e etc..
+- O trim remove tudo que não é texto de uma string, então ele tira espaços, \n e etc
+  * Ele não modifica o elemento inicial
+- O padstart insere o texto a começo da string (tem o padend tbm que coloca no final).
+  * O testo pode ser repetido de acordo com o parâmetro (índices)
+- O split divide uma string em um array; cada elemento será determinado por um separador em comum
+- O join faz o caminho inverso de um split, ele une um array em uma string
+- O repeat faz a repetição de um texto baseado no argumento
 
 OBJETOS
 
@@ -265,3 +272,5 @@ ADICIONAIS
 - Com o operador instanceOf podemos ver se o objeto é filho de uma classe. 
   * Formação: <Objeto> instanceOf <Classe>
     Isso retorna true ou false
+- Rest Operator é caracterizado pelas reticências (...)
+  * Podemos utilizá-lo para receber indefinidos argumentos em uma função, com ele não precisamos declarar exatamente o que vamos receber.
